@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "slug": "new-fal-shop",
+  "expectedShopId": 0,
+  "brandName": "New Fortune Shop",
+  "layoutVersion": "reading-1200x1500-v1",
+  "characterAsset": "assets/example-character.svg",
+  "characterSha256": "4b0e04df755cb6943885322cea792c25787efd3f608bce3bb702ea48793ccf3b",
+  "listingDefaults": {
+    "quantity": 999,
+    "whoMade": "i_did",
+    "whenMade": "2020_2025",
+    "taxonomyId": 0,
+    "shippingProfileId": null,
+    "returnPolicyId": null,
+    "shouldAutoRenew": true,
+    "isSupply": false,
+    "processingMin": 1,
+    "processingMax": 1,
+    "readinessStateId": null
+  }
+}

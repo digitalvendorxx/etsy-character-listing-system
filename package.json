@@ -1,0 +1,25 @@
+{
+  "name": "etsy-character-listing-system",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portable Etsy listing-draft factory with a locked base character and fixed thumbnail layout.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test",
+    "security:scan": "node scripts/scan-secrets.mjs",
+    "validate": "node src/cli.js validate",
+    "plan": "node src/cli.js plan",
+    "render": "node src/cli.js render",
+    "package": "node src/cli.js package",
+    "character:inspect": "node src/cli.js character-inspect",
+    "auth": "node src/cli.js auth-local",
+    "whoami": "node src/cli.js whoami",
+    "etsy:draft": "node src/cli.js upload-draft"
+  },
+  "dependencies": {
+    "playwright": "^1.61.0"
+  }
+}

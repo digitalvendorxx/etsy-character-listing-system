@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": "starter-readings-v1",
+  "products": [
+    {
+      "id": "love-clarity-reading",
+      "sku": "READ-LOVE-001",
+      "title": "Love Clarity Tarot Reading | Relationship Energy and Honest Guidance | Personalized Digital Reading",
+      "description": "A personalized love clarity reading focused on the present relationship energy, communication patterns, emotional themes, and grounded next steps. You will receive a written digital reading prepared from the details you provide. This service is for spiritual reflection and entertainment only. It does not guarantee contact, reconciliation, commitment, or a specific outcome, and it does not replace legal, medical, financial, or mental-health advice.",
+      "price": "9.99",
+      "tags": [
+        "love tarot reading",
+        "relationship tarot",
+        "love clarity",
+        "psychic love read",
+        "tarot guidance",
+        "digital reading",
+        "relationship help",
+        "intuitive reading",
+        "love energy",
+        "personalized tarot",
+        "honest tarot",
+        "spiritual guidance",
+        "tarot reading"
+      ],
+      "personalization": "Your first name, birth date, the other person's first name and birth date if known, relationship status, and the question you want explored.",
+      "thumbnail": {
+        "topBanner": "PERSONALIZED READING",
+        "lines": ["LOVE CLARITY", "TAROT READING"],
+        "subtitle": "Honest Relationship Guidance",
+        "accentColor": "#E85D8E"
+      },
+      "altText": "Love clarity tarot reading with a consistent fortune reader character and fixed text layout",
+      "gallery": []
+    },
+    {
+      "id": "career-path-reading",
+      "sku": "READ-CAREER-001",
+      "title": "Career Path Tarot Reading | Work Decision and Opportunity Guidance | Personalized Digital Reading",
+      "description": "A personalized career path reading exploring your current work energy, a decision or opportunity, likely challenges, and practical themes to consider. You will receive a written digital reading based on the context you provide. This service is for spiritual reflection and entertainment only. It does not guarantee employment, income, promotion, business success, or any financial result, and it is not professional financial or career advice.",
+      "price": "9.99",
+      "tags": [
+        "career tarot",
+        "job tarot reading",
+        "career guidance",
+        "work decision",
+        "future career",
+        "digital reading",
+        "tarot guidance",
+        "intuitive reading",
+        "job opportunity",
+        "personalized tarot",
+        "honest tarot",
+        "spiritual guidance",
+        "tarot reading"
+      ],
+      "personalization": "Your first name, birth date, current role or situation, the career decision or opportunity, and the question you want explored.",
+      "thumbnail": {
+        "topBanner": "PERSONALIZED READING",
+        "lines": ["CAREER PATH", "TAROT READING"],
+        "subtitle": "Work and Opportunity Guidance",
+        "accentColor": "#D8A23D"
+      },
+      "altText": "Career path tarot reading with a consistent fortune reader character and fixed text layout",
+      "gallery": []
+    },
+    {
+      "id": "month-ahead-reading",
+      "sku": "READ-MONTH-001",
+      "title": "Month Ahead Tarot Reading | Love Career and Personal Energy Forecast | Personalized Digital Reading",
+      "description": "A personalized month-ahead reading covering the main emotional, relationship, work, and personal-growth themes around you. You will receive a written digital reading prepared from the context you share. This service is for spiritual reflection and entertainment only. It describes current themes rather than guaranteed events and does not replace legal, medical, financial, or mental-health advice.",
+      "price": "12.99",
+      "tags": [
+        "month ahead tarot",
+        "monthly tarot",
+        "future reading",
+        "tarot forecast",
+        "love career tarot",
+        "digital reading",
+        "tarot guidance",
+        "intuitive reading",
+        "personal forecast",
+        "personalized tarot",
+        "honest tarot",
+        "spiritual guidance",
+        "tarot reading"
+      ],
+      "personalization": "Your first name, birth date, current priorities, any important context, and the areas you most want the month-ahead reading to cover.",
+      "thumbnail": {
+        "topBanner": "PERSONALIZED READING",
+        "lines": ["MONTH AHEAD", "TAROT READING"],
+        "subtitle": "Love Career and Personal Energy",
+        "accentColor": "#6FA8DC"
+      },
+      "altText": "Month ahead tarot reading with a consistent fortune reader character and fixed text layout",
+      "gallery": []
+    }
+  ]
+}

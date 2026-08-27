@@ -1,0 +1,83 @@
+# Default-deny: only the reusable source tree is intended for Git.
+/*
+!/.env.example
+!/.github/
+!/.github/**
+!/.gitignore
+!/AGENTS.md
+!/README.md
+!/assets/
+!/assets/**
+!/config/
+!/config/*.example.json
+!/docs/
+!/docs/**
+!/package-lock.json
+!/package.json
+!/scripts/
+!/scripts/**
+!/src/
+!/src/**
+!/test/
+!/test/**
+
+# Secrets and authentication
+**/.env
+**/.env.*
+!/.env.example
+**/*token*.json
+**/*oauth*.json
+**/storage-state*.json
+**/*.pem
+**/*.key
+**/*.p12
+**/*.pfx
+.etsy-auth-pending*.json
+.etsy-browser-profile/
+playwright/.auth/
+browser-profile/
+user-data-dir/
+
+# Shop-private assets, config, and runtime state
+config/*.local.json
+local-assets/
+private-assets/
+.runtime/
+state/
+output/
+cache/
+tmp/
+shops/*/private/
+shops/*/config.local.*
+
+# Customer and order data must never enter this repository
+*.sqlite*
+etsy-bot.sqlite*
+.etsy-order-bot-state*.json
+order-assets/
+order-drafts/
+message-drafts/
+customer-data/
+**/*journal*.json
+.codex-tmp-*
+
+# Current-shop/generated material
+listing-build/
+pipeline-output/
+source-photo-audit/
+thumbnail-audit/
+health-screenshots/
+translation-preview.json
+translation-report.json
+order-failure-*.png
+thoughts/
+
+# Local inputs and outputs
+*.log
+*.heic
+*.xlsx
+*.csv
+
+# Dependencies and OS files
+node_modules/
+.DS_Store
