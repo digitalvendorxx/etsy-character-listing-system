@@ -4,7 +4,7 @@ import { chromium } from "playwright";
 import { ensureFonts } from "./fonts.js";
 import { fileSha256, objectSha256 } from "./hash.js";
 import { buildThumbnailHtml, READING_LAYOUT } from "./layout.js";
-import { ROOT, fromRoot, relativeToRoot } from "./paths.js";
+import { fromRoot, relativeToRoot } from "./paths.js";
 
 function mimeFor(file) {
   const extension = path.extname(file).toLowerCase();
@@ -244,8 +244,4 @@ export function loadAndVerifyReviewManifest(file) {
     throw new Error("reviewed contact sheet changed or is missing");
   }
   return manifest;
-}
-
-export function defaultReviewFile(profile) {
-  return path.join(ROOT, "output", profile.slug, "review-manifest.json");
 }
